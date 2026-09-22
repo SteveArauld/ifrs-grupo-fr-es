@@ -103,7 +103,7 @@
   display: none;
 }
 .owl-carousel .owl-item {
-  padding: 0 15px;
+  /* padding: 0 15px; */
   position: relative;
   min-height: 1px;
   float: left;

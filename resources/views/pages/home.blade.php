@@ -80,11 +80,19 @@
             border-radius: 0 !important;
             margin: 0 !important;
             padding: 0 !important;
-            transition: background-color .3s ease;
+            transition: background-color .3s ease, opacity .3s ease;
         }
         .hero-owl-carousel .owl-nav .owl-prev:hover,
         .hero-owl-carousel .owl-nav .owl-next:hover { background-color: #ff2440 !important; }
-        .hero-owl-carousel .owl-dots { position: absolute; bottom: 25px; left: 0; right: 0; text-align: center; }
+        .hero-owl-carousel .owl-dots { display: none; }
+
+        /* arrows appear only on hover, on devices that actually support hover (desktop) */
+        @media (hover: hover) {
+            .hero-owl-carousel .owl-nav .owl-prev,
+            .hero-owl-carousel .owl-nav .owl-next { opacity: 0; }
+            .hero-owl-carousel:hover .owl-nav .owl-prev,
+            .hero-owl-carousel:hover .owl-nav .owl-next { opacity: 1; }
+        }
 
         /* entrance animation, replicating Revolution Slider layer timing.
            Content is visible by default (opacity:1) so it never depends on
@@ -113,6 +121,31 @@
         @keyframes heroFadeInUp {
             from { opacity: 0; transform: translateY(35px); }
             to { opacity: 1; transform: translateY(0); }
+        }
+
+        @media (max-width: 767px) {
+            .hero-owl-carousel .hero-slide {
+                min-height: 304px;
+            }
+            /* the source photos are wide banners with the subject sitting off-center;
+               on a narrow screen "center" crops straight through her, so bias the
+               crop toward whichever side actually holds the subject. */
+            /* .hero-owl-carousel .hero-slide.hero-align-left { background-position: right center; } */
+            /* .hero-owl-carousel .hero-slide.hero-align-right { background-position: left center; } */
+            .hero-owl-carousel .hero-slide .container {
+                display: block;
+                width: 100%;
+            }
+            .hero-slide-content {
+                width: 100%;
+                max-width: 100%;
+                box-sizing: border-box;
+                padding: 30px 0 0;
+            }
+            .hero-eyebrow { font-size: 12px; margin-bottom: 10px; }
+            .hero-title { font-size: 24px; margin-bottom: 12px; overflow-wrap: break-word; }
+            .hero-desc { font-size: 14px; margin-bottom: 18px; }
+            .hero-buttons { gap: 10px 14px; }
         }
     </style>
 
@@ -560,11 +593,21 @@
             items: 1,
             loop: true,
             nav: true,
-            dots: true,
+            dots: false,
             autoplay: true,
             autoplayTimeout: 6000,
             smartSpeed: 700,
-            navText: ['<i class="fa fa-angle-left"></i>', '<i class="fa fa-angle-right"></i>']
+            touchDrag: true,
+            mouseDrag: true,
+            navText: ['<i class="fa fa-angle-left"></i>', '<i class="fa fa-angle-right"></i>'],
+            responsive: {
+                0: {
+                    autoplayTimeout: 9000
+                },
+                768: {
+                    autoplayTimeout: 6000
+                }
+            }
         });
     });
 </script>
