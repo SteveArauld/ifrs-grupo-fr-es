@@ -3,7 +3,7 @@
 use App\Http\Controllers\PageController;
 use Illuminate\Support\Facades\Route;
 
-Route::redirect('/', '/fr');
+Route::get('/', [PageController::class, 'redirectToDetectedLocale']);
 
 Route::prefix('{locale}')
     ->where(['locale' => 'fr|es'])
@@ -17,4 +17,6 @@ Route::prefix('{locale}')
         Route::get('/legales', [PageController::class, 'legales'])->name('legales');
         Route::get('/condition', [PageController::class, 'condition'])->name('condition');
         Route::get('/nos-credits', [PageController::class, 'nosCredits'])->name('nos-credits');
+        Route::get('/contact', [PageController::class, 'contact'])->name('contact');
+        Route::post('/contact', [PageController::class, 'storeContact'])->name('contact.store');
     });

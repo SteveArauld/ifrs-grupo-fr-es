@@ -166,7 +166,7 @@
                         <!-- featured-imagebox-post -->
                         <div class="featured-imagebox featured-imagebox-post box-shadow">
                             <div class="featured-thumbnail">
-                                <img class="img-fluid" src="{{ asset('assets/images/img-4.jpg') }}" alt="">
+                                <img class="img-fluid" src="{{ asset('assets/images/blog-grid-4.jpg') }}" alt="">
                                 <div class="featured-icon">
                                     <div class="ttm-icon ttm-icon_element-fill ttm-icon_element-background-color-skincolor ttm-icon_element-size-xs">
                                         <i class="ti ti-pencil"></i>
@@ -188,7 +188,7 @@
                         <!-- featured-imagebox-post -->
                         <div class="featured-imagebox featured-imagebox-post box-shadow">
                             <div class="featured-thumbnail">
-                                <img class="img-fluid" src="{{ asset('assets/images/img-5.jpg') }}" alt="">
+                                <img class="img-fluid" src="{{ asset('assets/images/blog-grid-5.jpg') }}" alt="">
                                 <div class="featured-icon">
                                     <div class="ttm-icon ttm-icon_element-fill ttm-icon_element-background-color-skincolor ttm-icon_element-size-xs">
                                         <i class="ti ti-pencil"></i>
@@ -210,7 +210,7 @@
                         <!-- featured-imagebox-post -->
                         <div class="featured-imagebox featured-imagebox-post box-shadow">
                             <div class="featured-thumbnail">
-                                <img class="img-fluid" src="{{ asset('assets/images/img-6.jpg') }}" alt="">
+                                <img class="img-fluid" src="{{ asset('assets/images/blog-grid-4.jpg') }}" alt="">
                                 <div class="featured-icon">
                                     <div class="ttm-icon ttm-icon_element-fill ttm-icon_element-background-color-skincolor ttm-icon_element-size-xs">
                                         <i class="ti ti-pencil"></i>

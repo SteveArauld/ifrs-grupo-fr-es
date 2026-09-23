@@ -124,28 +124,44 @@
         }
 
         @media (max-width: 767px) {
+            /* mobile shows a shorter, centered version: only the title and
+               button(s) over the photo - eyebrow and description are dropped. */
             .hero-owl-carousel .hero-slide {
                 min-height: 304px;
             }
-            /* the source photos are wide banners with the subject sitting off-center;
-               on a narrow screen "center" crops straight through her, so bias the
-               crop toward whichever side actually holds the subject. */
-            /* .hero-owl-carousel .hero-slide.hero-align-left { background-position: right center; } */
-            /* .hero-owl-carousel .hero-slide.hero-align-right { background-position: left center; } */
             .hero-owl-carousel .hero-slide .container {
-                display: block;
+                display: flex;
+                justify-content: center;
                 width: 100%;
             }
-            .hero-slide-content {
+            .hero-slide-content,
+            .hero-owl-carousel .hero-slide.hero-align-right .hero-slide-content {
                 width: 100%;
                 max-width: 100%;
+                min-width: 0;
+                flex: 1 1 100%;
                 box-sizing: border-box;
-                padding: 30px 0 0;
+                padding: 30px 20px;
+                text-align: center;
             }
-            .hero-eyebrow { font-size: 12px; margin-bottom: 10px; }
-            .hero-title { font-size: 24px; margin-bottom: 12px; overflow-wrap: break-word; }
-            .hero-desc { font-size: 14px; margin-bottom: 18px; }
-            .hero-buttons { gap: 10px 14px; }
+            .hero-eyebrow, .hero-desc { display: none; }
+            .hero-title {
+                font-size: clamp(19px, 6vw, 26px);
+                margin-bottom: 20px;
+                white-space: normal !important;
+                overflow-wrap: break-word;
+                word-break: break-word;
+            }
+            /* first line (the "Especialista em..." / "PEDIDO DE" intro) reads
+               smaller than the bold second line, matching the reference design */
+            .hero-title::first-line { font-size: 18px; font-weight: 600; }
+            .hero-buttons { flex-direction: column; justify-content: center; align-items: center; gap: 12px; }
+            /* slide 1 only shows its single candidature button on mobile - drop the text link */
+            .hero-text-link { display: none; }
+            .hero-buttons .ttm-btn {
+                padding: 10px 22px !important;
+                font-size: 12px !important;
+            }
         }
     </style>
 

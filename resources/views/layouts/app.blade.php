@@ -77,6 +77,18 @@
 
 <body>
 
+    @php
+        // On error pages (404, 500, ...) no route matched the request, so
+        // Route::current() is null - fall back to the homepage in that case
+        // instead of crashing the error page itself.
+        $currentRouteName = Route::currentRouteName() ?? 'home';
+        $currentRouteParams = optional(Route::current())->parameters() ?? [];
+        if (! Route::has($currentRouteName)) {
+            $currentRouteName = 'home';
+            $currentRouteParams = [];
+        }
+    @endphp
+
     <!--page start-->
     <div class="page">
 
@@ -93,9 +105,9 @@
                                 <li><i class="fa fa-phone"></i>+35 191 223 8950</li>
                             </ul>
                             <ul class="top-contact ttm-lang-switcher">
-                                <li><a href="{{ route(Route::currentRouteName(), array_merge(Route::current()->parameters(), ['locale' => 'fr'])) }}" class="{{ app()->getLocale() === 'fr' ? 'active-lang' : '' }}">FR</a></li>
+                                <li><a href="{{ route($currentRouteName, array_merge($currentRouteParams, ['locale' => 'fr'])) }}" class="{{ app()->getLocale() === 'fr' ? 'active-lang' : '' }}">🇫🇷 FR</a></li>
                                 <li> / </li>
-                                <li><a href="{{ route(Route::currentRouteName(), array_merge(Route::current()->parameters(), ['locale' => 'es'])) }}" class="{{ app()->getLocale() === 'es' ? 'active-lang' : '' }}">ES</a></li>
+                                <li><a href="{{ route($currentRouteName, array_merge($currentRouteParams, ['locale' => 'es'])) }}" class="{{ app()->getLocale() === 'es' ? 'active-lang' : '' }}">🇪🇸 ES</a></li>
                             </ul>
                         </div>
                     </div>
@@ -205,7 +217,7 @@
                         <div class="widget widget_nav_menu clearfix">
                             <h3 class="widget-title">{{ __('pages.footer.links_title') }}</h3>
                             <ul id="menu-footer-services">
-                                <li><a href="{{ route('home', ['locale' => app()->getLocale()]) }}">{{ __('pages.footer.link_contact') }}</a></li>
+                                <li><a href="{{ route('contact', ['locale' => app()->getLocale()]) }}">{{ __('pages.footer.link_contact') }}</a></li>
                                 <li><a href="{{ route('about-us', ['locale' => app()->getLocale()]) }}">{{ __('pages.footer.link_about') }}</a></li>
                                 <li><a href="{{ route('apply-now', ['locale' => app()->getLocale()]) }}">{{ __('pages.footer.link_apply') }}</a></li>
                                 <li><a href="{{ route('condition', ['locale' => app()->getLocale()]) }}">{{ __('pages.footer.link_conditions') }}</a></li>
@@ -281,6 +293,24 @@
     }
     .ttm-lang-switcher { margin-left: 15px; }
     .ttm-lang-switcher a.active-lang { font-weight: bold; text-decoration: underline; }
+    /* responsive.css hides the whole dark topbar below 1200px. Rather than fight
+       that theme's float-based header layout to fit the language switcher into
+       the mobile header row, keep the topbar itself on mobile - shrunk down to
+       just the language switcher, same dark style as desktop. */
+    @media (max-width: 1199px) {
+        .ttm-topbar-wrapper { display: block !important; padding: 0; min-height: 0; line-height: 1; }
+        .ttm-topbar-wrapper .ttm-topbar-content { display: block; }
+        .ttm-topbar-wrapper .top-contact:not(.ttm-lang-switcher) { display: none; }
+        .ttm-topbar-wrapper .topbar-right { text-align: center; float: none; }
+        .ttm-topbar-wrapper .ttm-lang-switcher {
+            margin: 0;
+            display: inline-block;
+            font-size: 9px;
+            line-height: 1.2;
+        }
+        .ttm-topbar-wrapper .ttm-lang-switcher li { padding: 2px 0; }
+        .ttm-topbar-wrapper .ttm-lang-switcher a { padding: 0; }
+    }
     </style>
 
     <a href="https://wa.me/351912238950" target="_blank" class="whatsapp-float">

@@ -306,6 +306,30 @@ return [
         'contract_text' => 'L\'emprunteur doit signer un contrat de prêt et un certificat d\'assurance crédit. L\'assurance couvre l\'emprunteur en cas de décès, de perte totale et irréversible d\'autonomie, d\'incapacité totale de travail pour cause de maladie ou d\'accident (n° 0081 FACL) et de perte d\'emploi suite à un licenciement.',
     ],
 
+    'contact' => [
+        'meta_title' => 'IFRS GRUPO | Contact',
+        'heading' => 'Contactez-nous',
+        'breadcrumb_home' => 'Accueil',
+        'breadcrumb_current' => 'Contact',
+        'info_eyebrow' => 'Contact',
+        'info_title' => 'Restons en contact',
+        'label_name' => 'Nom complet',
+        'label_email' => 'Adresse e-mail',
+        'label_phone' => 'Téléphone (facultatif)',
+        'label_subject' => 'Sujet',
+        'label_message' => 'Message',
+        'submit' => 'Envoyer le message',
+        'success' => 'Votre message a bien été envoyé. Nous vous répondrons très prochainement.',
+        'map_title' => 'Localisation IFRS GRUPO',
+        'validation' => [
+            'name_required' => 'Le nom est obligatoire.',
+            'email_required' => 'L\'adresse e-mail est obligatoire.',
+            'email_invalid' => 'Veuillez saisir une adresse e-mail valide.',
+            'subject_required' => 'Le sujet est obligatoire.',
+            'message_required' => 'Le message est obligatoire.',
+        ],
+    ],
+
     'mail' => [
         'confirmation' => [
             'subject' => 'Nous avons bien reçu votre demande de crédit',
@@ -341,6 +365,67 @@ return [
             'field_locale' => 'Langue du formulaire',
             'field_submitted_at' => 'Reçue le',
             'footer_note' => 'Notification automatique — formulaire "Faire une demande" sur ifrs-grupo.com.',
+        ],
+
+        'contact_admin' => [
+            'subject' => 'Nouveau message de contact de :name',
+            'title' => 'Nouveau message de contact',
+            'intro' => 'Un nouveau message vient d\'être envoyé depuis le formulaire de contact du site. Voici le détail :',
+            'field_name' => 'Nom',
+            'field_email' => 'E-mail',
+            'field_phone' => 'Téléphone',
+            'field_subject' => 'Sujet',
+            'field_message' => 'Message',
+            'field_submitted_at' => 'Reçu le',
+            'footer_note' => 'Notification automatique — formulaire "Contact" sur ifrs-grupo.com.',
+        ],
+
+        'contact_confirmation' => [
+            'subject' => 'Nous avons bien reçu votre message',
+            'greeting' => 'Bonjour :name,',
+            'intro' => 'Nous vous confirmons la bonne réception de votre message. Notre équipe vous répondra dans les plus brefs délais.',
+            'summary_title' => 'Récapitulatif de votre message',
+            'field_subject' => 'Sujet',
+            'next_text' => 'Si votre demande est urgente, vous pouvez également nous contacter directement à contato@ifrs-grupo.com ou au +35 191 223 8950.',
+            'closing' => 'Merci de votre confiance,',
+            'signature' => 'L\'équipe IFRS GRUPO',
+            'footer_note' => 'Merci de nous avoir contactés via ifrs-grupo.com.',
+        ],
+    ],
+
+    'errors' => [
+        'breadcrumb_home' => 'Page d\'accueil',
+        'cta_home' => 'Retour à l\'accueil',
+        'cta_contact' => 'Nous contacter',
+        '403' => [
+            'eyebrow' => 'Erreur 403',
+            'title' => 'Accès refusé',
+            'desc' => 'Vous n\'avez pas l\'autorisation d\'accéder à cette page.',
+        ],
+        '404' => [
+            'eyebrow' => 'Erreur 404',
+            'title' => 'Page introuvable',
+            'desc' => 'La page que vous recherchez n\'existe pas ou a été déplacée.',
+        ],
+        '419' => [
+            'eyebrow' => 'Erreur 419',
+            'title' => 'Session expirée',
+            'desc' => 'Votre session a expiré. Merci de retourner à l\'accueil et de réessayer.',
+        ],
+        '429' => [
+            'eyebrow' => 'Erreur 429',
+            'title' => 'Trop de requêtes',
+            'desc' => 'Vous avez effectué trop de requêtes en peu de temps. Merci de patienter un instant avant de réessayer.',
+        ],
+        '500' => [
+            'eyebrow' => 'Erreur 500',
+            'title' => 'Erreur interne du serveur',
+            'desc' => 'Une erreur inattendue s\'est produite de notre côté. Notre équipe a été informée, merci de réessayer plus tard.',
+        ],
+        '503' => [
+            'eyebrow' => 'Maintenance',
+            'title' => 'Site en maintenance',
+            'desc' => 'Notre site est actuellement en maintenance. Nous serons de retour très prochainement.',
         ],
     ],
 ];

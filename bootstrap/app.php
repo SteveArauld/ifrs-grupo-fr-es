@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Middleware\DetectErrorPageLocale;
 use App\Http\Middleware\SetLocale;
 use Illuminate\Foundation\Application;
 use Illuminate\Foundation\Configuration\Exceptions;
@@ -16,6 +17,12 @@ return Application::configure(basePath: dirname(__DIR__))
         $middleware->alias([
             'setlocale' => SetLocale::class,
         ]);
+
+        // Registered as a true global middleware (not just prepended to the
+        // "web" group) because route-group middleware only runs for a request
+        // that actually matched a route in that group. A 404 matches nothing,
+        // so it would otherwise skip locale detection entirely.
+        $middleware->append(DetectErrorPageLocale::class);
     })
     ->withExceptions(function (Exceptions $exceptions): void {
         $exceptions->shouldRenderJsonWhen(

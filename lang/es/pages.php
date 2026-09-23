@@ -306,6 +306,30 @@ return [
         'contract_text' => 'El prestatario debe firmar un contrato de préstamo y un certificado de seguro de crédito. El seguro cubre al prestatario en caso de fallecimiento, pérdida total e irreversible de autonomía, incapacidad total para el trabajo por enfermedad o accidente (nº 0081 FACL) y pérdida del empleo por despido.',
     ],
 
+    'contact' => [
+        'meta_title' => 'IFRS GRUPO | Contacto',
+        'heading' => 'Contáctenos',
+        'breadcrumb_home' => 'Inicio',
+        'breadcrumb_current' => 'Contacto',
+        'info_eyebrow' => 'Contacto',
+        'info_title' => 'Mantengámonos en contacto',
+        'label_name' => 'Nombre completo',
+        'label_email' => 'Correo electrónico',
+        'label_phone' => 'Teléfono (opcional)',
+        'label_subject' => 'Asunto',
+        'label_message' => 'Mensaje',
+        'submit' => 'Enviar mensaje',
+        'success' => 'Su mensaje ha sido enviado correctamente. Le responderemos muy pronto.',
+        'map_title' => 'Ubicación de IFRS GRUPO',
+        'validation' => [
+            'name_required' => 'El nombre es obligatorio.',
+            'email_required' => 'El correo electrónico es obligatorio.',
+            'email_invalid' => 'Por favor, introduzca una dirección de correo electrónico válida.',
+            'subject_required' => 'El asunto es obligatorio.',
+            'message_required' => 'El mensaje es obligatorio.',
+        ],
+    ],
+
     'mail' => [
         'confirmation' => [
             'subject' => 'Hemos recibido su solicitud de crédito',
@@ -341,6 +365,67 @@ return [
             'field_locale' => 'Idioma del formulario',
             'field_submitted_at' => 'Recibida el',
             'footer_note' => 'Notificación automática — formulario "Hacer una solicitud" en ifrs-grupo.com.',
+        ],
+
+        'contact_admin' => [
+            'subject' => 'Nuevo mensaje de contacto de :name',
+            'title' => 'Nuevo mensaje de contacto',
+            'intro' => 'Se ha enviado un nuevo mensaje desde el formulario de contacto del sitio. Aquí están los detalles:',
+            'field_name' => 'Nombre',
+            'field_email' => 'Correo electrónico',
+            'field_phone' => 'Teléfono',
+            'field_subject' => 'Asunto',
+            'field_message' => 'Mensaje',
+            'field_submitted_at' => 'Recibido el',
+            'footer_note' => 'Notificación automática — formulario "Contacto" en ifrs-grupo.com.',
+        ],
+
+        'contact_confirmation' => [
+            'subject' => 'Hemos recibido su mensaje',
+            'greeting' => 'Hola :name,',
+            'intro' => 'Le confirmamos que hemos recibido correctamente su mensaje. Nuestro equipo le responderá lo antes posible.',
+            'summary_title' => 'Resumen de su mensaje',
+            'field_subject' => 'Asunto',
+            'next_text' => 'Si su solicitud es urgente, también puede contactarnos directamente en contato@ifrs-grupo.com o al +35 191 223 8950.',
+            'closing' => 'Gracias por su confianza,',
+            'signature' => 'El equipo de IFRS GRUPO',
+            'footer_note' => 'Gracias por contactarnos a través de ifrs-grupo.com.',
+        ],
+    ],
+
+    'errors' => [
+        'breadcrumb_home' => 'Página de inicio',
+        'cta_home' => 'Volver al inicio',
+        'cta_contact' => 'Contáctenos',
+        '403' => [
+            'eyebrow' => 'Error 403',
+            'title' => 'Acceso denegado',
+            'desc' => 'No tiene autorización para acceder a esta página.',
+        ],
+        '404' => [
+            'eyebrow' => 'Error 404',
+            'title' => 'Página no encontrada',
+            'desc' => 'La página que busca no existe o ha sido movida.',
+        ],
+        '419' => [
+            'eyebrow' => 'Error 419',
+            'title' => 'Sesión expirada',
+            'desc' => 'Su sesión ha expirado. Por favor, vuelva al inicio e inténtelo de nuevo.',
+        ],
+        '429' => [
+            'eyebrow' => 'Error 429',
+            'title' => 'Demasiadas solicitudes',
+            'desc' => 'Ha realizado demasiadas solicitudes en poco tiempo. Por favor, espere un momento antes de volver a intentarlo.',
+        ],
+        '500' => [
+            'eyebrow' => 'Error 500',
+            'title' => 'Error interno del servidor',
+            'desc' => 'Se ha producido un error inesperado de nuestra parte. Nuestro equipo ha sido informado, por favor inténtelo de nuevo más tarde.',
+        ],
+        '503' => [
+            'eyebrow' => 'Mantenimiento',
+            'title' => 'Sitio en mantenimiento',
+            'desc' => 'Nuestro sitio está actualmente en mantenimiento. Volveremos muy pronto.',
         ],
     ],
 ];
