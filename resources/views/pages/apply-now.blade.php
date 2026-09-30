@@ -5,6 +5,17 @@
 
 @push('styles')
     <style>
+        #applyNowWrapper {
+            padding: 50px;
+            margin-top: 30px;
+        }
+
+        @media (max-width: 991px) {
+            #applyNowWrapper {
+                padding: 15px;
+            }
+        }
+
         #applyNowForm .form-group {
             margin-bottom: 20px;
         }
@@ -65,7 +76,7 @@
         <section class="ttm-row about-top-section clearfix">
             <div class="container">
 
-                <div class="ttm-col-bgcolor-yes ttm-bg z-index-2 p-50 res-991-margin_top30 res-991-p-15">
+                <div id="applyNowWrapper" class="ttm-col-bgcolor-yes ttm-bg z-index-2 p-50 res-991-margin_top30 res-991-p-15">
                     <div class="ttm-col-wrapper-bg-layer ttm-bg-layer"></div>
                     <div class="layer-content">
 
