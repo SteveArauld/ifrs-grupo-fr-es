@@ -41,7 +41,7 @@
                             </tr>
                             <tr>
                                 <td>
-                                    <a href="mailto:contato@horizoncredit.com" style="color:rgba(255,255,255,.65); text-decoration:none;">contato@horizoncredit.com</a>
+                                    <a href="mailto:contact@horizoncredit.fr" style="color:rgba(255,255,255,.65); text-decoration:none;">contact@horizoncredit.fr</a>
                                     &nbsp;&middot;&nbsp;
                                     +35 191 223 8950
                                 </td>

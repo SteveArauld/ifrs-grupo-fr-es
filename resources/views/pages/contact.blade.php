@@ -55,7 +55,7 @@
                                     <i class="fa fa-envelope-o"></i>
                                     <div>
                                         <strong>{{ __('pages.footer.email_title') }}</strong>
-                                        <span><a href="mailto:contato@horizoncredit.com">contato@horizoncredit.com</a></span>
+                                        <span><a href="mailto:contact@horizoncredit.fr">contact@horizoncredit.fr</a></span>
                                     </div>
                                 </li>
                                 <li>

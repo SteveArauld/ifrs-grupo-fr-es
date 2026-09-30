@@ -101,7 +101,7 @@
                         </ul>
                         <div class="topbar-right text-right">
                             <ul class="top-contact">
-                                <li><i class="fa fa-envelope-o"></i><a href="mailto:contato@horizoncredit.com">contato@horizoncredit.com</a></li>
+                                <li><i class="fa fa-envelope-o"></i><a href="mailto:contact@horizoncredit.fr">contact@horizoncredit.fr</a></li>
                                 <li><i class="fa fa-phone"></i>+35 191 223 8950</li>
                             </ul>
                             <ul class="top-contact ttm-lang-switcher">
@@ -192,7 +192,7 @@
                                     <div class="featured-box text-center">
                                         <div class="featured-content">
                                             <div class="featured-title"><h5>{{ __('pages.footer.email_title') }}</h5></div>
-                                            <div class="featured-desc"><p>contato@horizoncredit.com</p></div>
+                                            <div class="featured-desc"><p>contact@horizoncredit.fr</p></div>
                                         </div>
                                     </div>
                                 </div>
@@ -246,7 +246,7 @@
                                 <ul class="ttm-our-location-list">
                                     <li><i class="fa fa-phone"></i>+35 191 223 8950</li>
                                     <li><i class="fa fa-map-marker"></i>Rua Castilho 39, 1250-096 Lisboa, Portugal</li>
-                                    <li><i class="fa fa-envelope-o"></i>contato@horizoncredit.com</li>
+                                    <li><i class="fa fa-envelope-o"></i>contact@horizoncredit.fr</li>
                                 </ul>
                             </div>
                         </div>
