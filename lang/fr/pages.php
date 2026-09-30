@@ -3,7 +3,7 @@
 return [
     'meta' => [
         'keywords' => 'La meilleure option de financement : rapide, sûre et fiable.',
-        'title' => 'IFRS GRUPO | La meilleure option de financement : rapide, sûre et fiable.',
+        'title' => 'Horizon Crédit | La meilleure option de financement : rapide, sûre et fiable.',
     ],
     'nav' => [
         'home' => 'ACCUEIL',
@@ -18,7 +18,7 @@ return [
         'phone_title' => 'Téléphone',
         'email_title' => 'E-mail',
         'about_title' => 'À propos',
-        'about_text' => 'SAS IFRS GRUPO au capital de 21 600 000 € - siège social : Rua Castilho 39, 1250-096 Lisbonne, Portugal - société soumise au contrôle de l\'Autorité de Contrôle Prudentiel et de Résolution (ACPR).',
+        'about_text' => 'SAS Horizon Crédit au capital de 21 600 000 € - siège social : Rua Castilho 39, 1250-096 Lisbonne, Portugal - société soumise au contrôle de l\'Autorité de Contrôle Prudentiel et de Résolution (ACPR).',
         'links_title' => 'Liens utiles',
         'link_contact' => 'Contact',
         'link_about' => 'À propos de nous',
@@ -34,10 +34,10 @@ return [
         'offer_car' => 'Prêt automobile',
         'offer_other' => 'Autres financements',
         'contact_title' => 'Contact',
-        'copyright' => 'Copyright © 2026 IFRS GRUPO. Tous droits réservés.',
+        'copyright' => 'Copyright © 2026 Horizon Crédit. Tous droits réservés.',
     ],
     'home' => [
-        'meta_title' => 'IFRS GRUPO | La meilleure option de financement : rapide, sûre et fiable.',
+        'meta_title' => 'Horizon Crédit | La meilleure option de financement : rapide, sûre et fiable.',
         'slide1' => [
             'eyebrow' => 'BIENVENUE CHEZ NOUS',
             'title' => 'Spécialiste du financement',
@@ -67,7 +67,7 @@ return [
         'about' => [
             'years_label' => 'Années d\'expérience',
             'title' => 'Une société de prêt dédiée à ses clients',
-            'desc' => 'IFRS GRUPO est une entreprise spécialisée dans les solutions financières de financement de projets et de restructuration de crédits. Leader de l\'intermédiation en restructuration de crédits sur le marché français, elle doit sa notoriété à son savoir-faire et à son engagement envers le service à ses clients et à ses partenaires.',
+            'desc' => 'Horizon Crédit est une entreprise spécialisée dans les solutions financières de financement de projets et de restructuration de crédits. Leader de l\'intermédiation en restructuration de crédits sur le marché français, elle doit sa notoriété à son savoir-faire et à son engagement envers le service à ses clients et à ses partenaires.',
             'read_more' => 'Lire plus',
             'point1' => 'Expert de confiance',
             'point2' => 'Taux de réussite de 100 %',
@@ -123,16 +123,16 @@ return [
         ],
     ],
     'about' => [
-        'meta_title' => 'IFRS GRUPO | La meilleure option de financement : rapide, sûre et fiable.',
+        'meta_title' => 'Horizon Crédit | La meilleure option de financement : rapide, sûre et fiable.',
         'page_title' => 'À propos de nous',
         'breadcrumb_home' => 'Accueil',
         'intro_title' => 'Une solution plus simple pour les prêts aux entreprises',
-        'intro_subtitle' => 'IFRS GRUPO a été fondée dans le but d\'aider les petites et moyennes entreprises.',
+        'intro_subtitle' => 'Horizon Crédit a été fondée dans le but d\'aider les petites et moyennes entreprises.',
         'intro_p1' => 'En aidant les indépendants à se financer, nous soutenons l\'économie de tout le pays, en offrant à nos clients la meilleure expérience possible pour trouver le financement adéquat. Nous constatons souvent que les entreprises paient à des conditions défavorables faute de temps pour trouver le meilleur prêt professionnel. C\'est pourquoi nous avons développé une solution qui permet aux entrepreneurs d\'entrer en contact direct avec les banques et d\'obtenir un financement.',
-        'intro_p2' => 'Nous avons développé une solution qui permet aux entrepreneurs d\'entrer en contact avec un tiers indépendant (c\'est-à-dire nous, chez IFRS GRUPO) et de recevoir en même temps des offres de plusieurs banques et prêteurs. Toutes les demandes se font en ligne et nos experts sont toujours disponibles pour répondre aux questions de nos clients. Tout cela afin que les petites entreprises puissent se concentrer sur leur activité principale sans avoir à se soucier du financement.',
+        'intro_p2' => 'Nous avons développé une solution qui permet aux entrepreneurs d\'entrer en contact avec un tiers indépendant (c\'est-à-dire nous, chez Horizon Crédit) et de recevoir en même temps des offres de plusieurs banques et prêteurs. Toutes les demandes se font en ligne et nos experts sont toujours disponibles pour répondre aux questions de nos clients. Tout cela afin que les petites entreprises puissent se concentrer sur leur activité principale sans avoir à se soucier du financement.',
         'learn_more' => 'En savoir plus',
         'history_title' => 'Notre histoire',
-        'history_text' => 'IFRS GRUPO a été créée par un groupe d\'entrepreneurs ayant de l\'expérience dans les affaires et la finance. Lorsque nous dirigions nos entreprises précédentes, nous avons rencontré des difficultés pour trouver le bon prêt professionnel pour nos activités. Les taux d\'intérêt publiés sur les sites de certains prêteurs ne correspondaient pas aux taux d\'intérêt réels qui nous étaient proposés et différaient dans leur mode de calcul et de communication. Nous avons également mis beaucoup de temps à nous familiariser avec les différences entre les conditions des différents prêts aux entreprises. La conclusion a été qu\'il devait exister une meilleure façon de trouver le meilleur prêt professionnel. Cela dit, nous avons lancé IFRS GRUPO, afin que d\'autres propriétaires de petites entreprises n\'aient pas à vivre la même expérience inefficace et fastidieuse que nous.',
+        'history_text' => 'Horizon Crédit a été créée par un groupe d\'entrepreneurs ayant de l\'expérience dans les affaires et la finance. Lorsque nous dirigions nos entreprises précédentes, nous avons rencontré des difficultés pour trouver le bon prêt professionnel pour nos activités. Les taux d\'intérêt publiés sur les sites de certains prêteurs ne correspondaient pas aux taux d\'intérêt réels qui nous étaient proposés et différaient dans leur mode de calcul et de communication. Nous avons également mis beaucoup de temps à nous familiariser avec les différences entre les conditions des différents prêts aux entreprises. La conclusion a été qu\'il devait exister une meilleure façon de trouver le meilleur prêt professionnel. Cela dit, nous avons lancé Horizon Crédit, afin que d\'autres propriétaires de petites entreprises n\'aient pas à vivre la même expérience inefficace et fastidieuse que nous.',
         'how_it_works_eyebrow' => 'Comment ça marche',
         'how_it_works_title' => 'Recevez vos fonds sur votre compte en 3 étapes.',
         'how_it_works_subtitle' => 'C\'est clair et simple, rien ne vous est caché !',
@@ -152,15 +152,15 @@ return [
         'breadcrumb_home' => 'Accueil',
         'personal_loan' => [
             'title' => 'Prêt personnel',
-            'desc' => 'Plus flexible, plus avantageux, plus simple. Nous vous proposons les mensualités les plus basses du marché, aux meilleurs taux. Discrétion absolue, vous choisissez la durée, le montant, selon vos souhaits. Remplissez votre demande de crédit privé et nous vous proposons un financement adapté à vos besoins, sans engagement. Réalisez vos rêves dès maintenant. Demain, avec IFRS GRUPO, c\'est déjà différent.',
+            'desc' => 'Plus flexible, plus avantageux, plus simple. Nous vous proposons les mensualités les plus basses du marché, aux meilleurs taux. Discrétion absolue, vous choisissez la durée, le montant, selon vos souhaits. Remplissez votre demande de crédit privé et nous vous proposons un financement adapté à vos besoins, sans engagement. Réalisez vos rêves dès maintenant. Demain, avec Horizon Crédit, c\'est déjà différent.',
         ],
         'debt_consolidation' => [
             'title' => 'Rachat de crédit',
-            'desc' => 'Simplifiez la gestion de vos crédits en les regroupant en une seule mensualité. Vous pouvez mieux gérer votre budget et envisager l\'avenir avec sérénité ! Vous avez 3 crédits en cours et payez plusieurs échéances par mois. Avec IFRS GRUPO, vous regroupez tous vos crédits en un seul. Nous remboursons le solde de vos crédits et vous ne pensez plus qu\'à un seul remboursement par mois. Nous vous proposons le meilleur taux.',
+            'desc' => 'Simplifiez la gestion de vos crédits en les regroupant en une seule mensualité. Vous pouvez mieux gérer votre budget et envisager l\'avenir avec sérénité ! Vous avez 3 crédits en cours et payez plusieurs échéances par mois. Avec Horizon Crédit, vous regroupez tous vos crédits en un seul. Nous remboursons le solde de vos crédits et vous ne pensez plus qu\'à un seul remboursement par mois. Nous vous proposons le meilleur taux.',
         ],
         'revolving_credit' => [
             'title' => 'Crédit renouvelable',
-            'desc' => 'IFRS GRUPO met à votre disposition un crédit que vous pouvez utiliser à votre convenance et qui se reconstitue progressivement. Ce montant diminue lorsque vous l\'utilisez et se reconstitue progressivement lorsque vous remboursez votre crédit. Le crédit renouvelable peut être associé à une carte bancaire. Les achats et retraits effectués avec cette carte sont alors débités du capital disponible.',
+            'desc' => 'Horizon Crédit met à votre disposition un crédit que vous pouvez utiliser à votre convenance et qui se reconstitue progressivement. Ce montant diminue lorsque vous l\'utilisez et se reconstitue progressivement lorsque vous remboursez votre crédit. Le crédit renouvelable peut être associé à une carte bancaire. Les achats et retraits effectués avec cette carte sont alors débités du capital disponible.',
         ],
         'student_loan' => [
             'title' => 'Prêt étudiant',
@@ -168,11 +168,11 @@ return [
         ],
         'mortgage_loan' => [
             'title' => 'Prêt immobilier',
-            'desc' => 'Vous souhaitez déménager ? Construire une véranda, réaménager la chambre des enfants, refaire une façade, installer un spa ? Demandez simplement un prêt pour votre logement, et IFRS GRUPO s\'occupe de tout. Nous trouvons pour vous le meilleur prix du marché, adapté à votre situation. Vous disposez de l\'argent pour réaliser vos rêves en un temps record !',
+            'desc' => 'Vous souhaitez déménager ? Construire une véranda, réaménager la chambre des enfants, refaire une façade, installer un spa ? Demandez simplement un prêt pour votre logement, et Horizon Crédit s\'occupe de tout. Nous trouvons pour vous le meilleur prix du marché, adapté à votre situation. Vous disposez de l\'argent pour réaliser vos rêves en un temps record !',
         ],
         'leasing' => [
             'title' => 'Leasing',
-            'desc' => 'IFRS GRUPO met à votre disposition un crédit que vous pouvez utiliser à votre convenance et qui se reconstitue progressivement. Ce montant diminue lorsque vous l\'utilisez et se reconstitue progressivement lorsque vous remboursez votre crédit. Le crédit renouvelable peut être associé à une carte bancaire. Les achats et retraits effectués avec cette carte sont alors débités du capital disponible.',
+            'desc' => 'Horizon Crédit met à votre disposition un crédit que vous pouvez utiliser à votre convenance et qui se reconstitue progressivement. Ce montant diminue lorsque vous l\'utilisez et se reconstitue progressivement lorsque vous remboursez votre crédit. Le crédit renouvelable peut être associé à une carte bancaire. Les achats et retraits effectués avec cette carte sont alors débités du capital disponible.',
         ],
         'car_loan' => [
             'title' => 'Prêt automobile',
@@ -188,7 +188,7 @@ return [
         ],
     ],
     'apply' => [
-        'meta_title' => 'Demande de crédit | IFRS GRUPO',
+        'meta_title' => 'Demande de crédit | Horizon Crédit',
         'heading' => 'Demande de crédit',
         'breadcrumb_home' => 'Accueil',
         'breadcrumb_current' => 'Demande de crédit',
@@ -225,7 +225,7 @@ return [
         'meta_title' => 'Gestion des cookies',
         'page_title' => 'Gestion des cookies',
         'breadcrumb_home' => 'Accueil',
-        'intro' => 'IFRS GRUPO ® a pour objectif d\'offrir la meilleure expérience en ligne possible lors de votre visite sur notre site, c\'est pourquoi nous utilisons certains types de « cookies ».',
+        'intro' => 'Horizon Crédit ® a pour objectif d\'offrir la meilleure expérience en ligne possible lors de votre visite sur notre site, c\'est pourquoi nous utilisons certains types de « cookies ».',
         'section1' => [
             'title' => '1. Que sont les cookies ?',
             'paragraph1' => 'Les cookies sont des fichiers d\'information envoyés par un serveur web (dans ce cas, ce site) vers le navigateur internet du visiteur, stockés sur son ordinateur et renvoyés au serveur à chaque fois que le site est consulté. Ainsi, pour tirer le meilleur parti de ce site, nous vous recommandons de configurer votre navigateur pour accepter les cookies.',
@@ -253,19 +253,19 @@ return [
         ],
     ],
     'legales' => [
-        'meta_title' => 'IFRS GRUPO | Informations légales',
+        'meta_title' => 'Horizon Crédit | Informations légales',
         'page_title' => 'Informations légales',
         'breadcrumb_home' => 'Page d\'accueil',
-        'company_name' => 'Nom de l\'entreprise : IFRS GRUPO ®',
+        'company_name' => 'Nom de l\'entreprise : Horizon Crédit ®',
         'registered_office' => 'Siège social : Rua Castilho 39, 1250-096 Lisboa, Portugal',
-        'director' => 'Directeur général : IFRS GRUPO ®',
+        'director' => 'Directeur général : Horizon Crédit ®',
         'email_label' => 'Adresse e-mail :',
         'phone_label' => 'Numéro de téléphone : +35 191 223 8950',
         'section1_title' => '1. Responsabilité :',
-        'section1_p1' => 'IFRS GRUPO® met tout en œuvre pour garantir que les informations fournies sur ce site sont exactes et à jour.',
+        'section1_p1' => 'Horizon Crédit® met tout en œuvre pour garantir que les informations fournies sur ce site sont exactes et à jour.',
         'section1_p2' => 'Toutefois, nous ne pouvons garantir l\'exactitude ou l\'exhaustivité de ces informations. Nous déclinons donc toute responsabilité pour tout dommage direct ou indirect résultant de l\'utilisation des informations fournies sur ce site.',
         'section2_title' => '2. Propriété intellectuelle :',
-        'section2_text' => 'Tout le contenu de ce site, y compris les textes, images, graphiques, logos et vidéos, est la propriété exclusive d\'IFRS GRUPO® ou de ses concédants de licence et est protégé par les lois applicables en matière de propriété intellectuelle. Toute reproduction, distribution, modification ou utilisation non autorisée de ce contenu est strictement interdite.',
+        'section2_text' => 'Tout le contenu de ce site, y compris les textes, images, graphiques, logos et vidéos, est la propriété exclusive d\'Horizon Crédit® ou de ses concédants de licence et est protégé par les lois applicables en matière de propriété intellectuelle. Toute reproduction, distribution, modification ou utilisation non autorisée de ce contenu est strictement interdite.',
         'section3_title' => '3. Liens vers des sites tiers :',
         'section3_text' => 'Ce site peut contenir des liens vers des sites tiers. Ces liens sont fournis à titre informatif uniquement et n\'impliquent aucune approbation de notre part du contenu de ces sites. Nous ne sommes pas responsables du contenu ni des pratiques de confidentialité de ces sites tiers.',
         'section4_title' => '4. Protection des données personnelles :',
@@ -307,7 +307,7 @@ return [
     ],
 
     'contact' => [
-        'meta_title' => 'IFRS GRUPO | Contact',
+        'meta_title' => 'Horizon Crédit | Contact',
         'heading' => 'Contactez-nous',
         'breadcrumb_home' => 'Accueil',
         'breadcrumb_current' => 'Contact',
@@ -320,7 +320,7 @@ return [
         'label_message' => 'Message',
         'submit' => 'Envoyer le message',
         'success' => 'Votre message a bien été envoyé. Nous vous répondrons très prochainement.',
-        'map_title' => 'Localisation IFRS GRUPO',
+        'map_title' => 'Localisation Horizon Crédit',
         'validation' => [
             'name_required' => 'Le nom est obligatoire.',
             'email_required' => 'L\'adresse e-mail est obligatoire.',
@@ -340,10 +340,10 @@ return [
             'field_duration' => 'Durée du prêt',
             'field_reference' => 'Référence',
             'next_title' => 'Et maintenant ?',
-            'next_text' => 'Un conseiller financier vous contactera dans les plus brefs délais afin de finaliser votre demande. Si vous avez la moindre question d\'ici là, contactez-nous directement à contato@ifrs-grupo.com ou au +35 191 223 8950.',
+            'next_text' => 'Un conseiller financier vous contactera dans les plus brefs délais afin de finaliser votre demande. Si vous avez la moindre question d\'ici là, contactez-nous directement à contato@horizoncredit.com ou au +35 191 223 8950.',
             'closing' => 'Merci de votre confiance,',
-            'signature' => 'L\'équipe IFRS GRUPO',
-            'footer_note' => 'Cet e-mail vous a été envoyé suite à votre demande sur ifrs-grupo.com.',
+            'signature' => 'L\'équipe Horizon Crédit',
+            'footer_note' => 'Cet e-mail vous a été envoyé suite à votre demande sur horizoncredit.com.',
         ],
         'admin' => [
             'subject' => 'Nouvelle demande de crédit — :name',
@@ -364,7 +364,7 @@ return [
             'field_duration' => 'Durée du prêt',
             'field_locale' => 'Langue du formulaire',
             'field_submitted_at' => 'Reçue le',
-            'footer_note' => 'Notification automatique — formulaire "Faire une demande" sur ifrs-grupo.com.',
+            'footer_note' => 'Notification automatique — formulaire "Faire une demande" sur horizoncredit.com.',
         ],
 
         'contact_admin' => [
@@ -377,7 +377,7 @@ return [
             'field_subject' => 'Sujet',
             'field_message' => 'Message',
             'field_submitted_at' => 'Reçu le',
-            'footer_note' => 'Notification automatique — formulaire "Contact" sur ifrs-grupo.com.',
+            'footer_note' => 'Notification automatique — formulaire "Contact" sur horizoncredit.com.',
         ],
 
         'contact_confirmation' => [
@@ -386,10 +386,10 @@ return [
             'intro' => 'Nous vous confirmons la bonne réception de votre message. Notre équipe vous répondra dans les plus brefs délais.',
             'summary_title' => 'Récapitulatif de votre message',
             'field_subject' => 'Sujet',
-            'next_text' => 'Si votre demande est urgente, vous pouvez également nous contacter directement à contato@ifrs-grupo.com ou au +35 191 223 8950.',
+            'next_text' => 'Si votre demande est urgente, vous pouvez également nous contacter directement à contato@horizoncredit.com ou au +35 191 223 8950.',
             'closing' => 'Merci de votre confiance,',
-            'signature' => 'L\'équipe IFRS GRUPO',
-            'footer_note' => 'Merci de nous avoir contactés via ifrs-grupo.com.',
+            'signature' => 'L\'équipe Horizon Crédit',
+            'footer_note' => 'Merci de nous avoir contactés via horizoncredit.com.',
         ],
     ],
 

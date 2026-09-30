@@ -1,13 +1,13 @@
-# IFRS Grupo
+# Horizon Crédit
 
-Site web institutionnel d'IFRS Grupo (société de financement et de crédit), développé avec Laravel. Le site est disponible en **français** et **espagnol**, avec un formulaire de demande de crédit qui envoie un e-mail de confirmation au demandeur et une notification à l'équipe.
+Site web institutionnel d'Horizon Crédit (société de financement et de crédit), développé avec Laravel. Le site est disponible en **français** et **espagnol**, avec un formulaire de demande de crédit qui envoie un e-mail de confirmation au demandeur et une notification à l'équipe.
 
 ## Stack technique
 
 - **Laravel 13** / PHP 8.3+
 - **Base de données** : SQLite (par défaut, configurable)
 - **Frontend** : Blade + template HTML/CSS/JS (Bootstrap, Owl Carousel), assets servis depuis `public/assets`
-- **E-mails** : Mailable Laravel avec templates HTML de marque (logo, couleurs IFRS Grupo)
+- **E-mails** : Mailable Laravel avec templates HTML de marque (logo, couleurs Horizon Crédit)
 
 ## Fonctionnalités
 
@@ -44,9 +44,9 @@ MAIL_HOST=...
 MAIL_PORT=...
 MAIL_USERNAME=...
 MAIL_PASSWORD=...
-MAIL_FROM_ADDRESS="contato@ifrs-grupo.com"
+MAIL_FROM_ADDRESS="contato@horizoncredit.com"
 MAIL_FROM_NAME="${APP_NAME}"
-MAIL_ADMIN_ADDRESS="contato@ifrs-grupo.com"   # adresse qui reçoit les notifications de demande
+MAIL_ADMIN_ADDRESS="contato@horizoncredit.com"   # adresse qui reçoit les notifications de demande
 ```
 
 En local sans SMTP configuré, utilisez `MAIL_MAILER=log` ou un outil comme [Mailpit](https://github.com/axllent/mailpit) pour visualiser les e-mails envoyés.

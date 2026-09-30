@@ -41,7 +41,7 @@
                                 <span>{{ __('pages.legales.company_name') }}</span><br>
                                 <span>{{ __('pages.legales.registered_office') }}</span><br>
                                 <span>{{ __('pages.legales.director') }}</span><br>
-                                <span>{{ __('pages.legales.email_label') }} <a href="mailto:contato@ifrs-grupo.com">contato@ifrs-grupo.com</a></span><br>
+                                <span>{{ __('pages.legales.email_label') }} <a href="mailto:contato@horizoncredit.com">contato@horizoncredit.com</a></span><br>
                                 <span>{{ __('pages.legales.phone_label') }}</span><br>
                             </p>
                             <h5 class="mt-4">{{ __('pages.legales.section1_title') }}</h5>

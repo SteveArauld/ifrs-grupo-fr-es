@@ -125,6 +125,6 @@ return [
     |
     */
 
-    'admin_address' => env('MAIL_ADMIN_ADDRESS', 'contato@ifrs-grupo.com'),
+    'admin_address' => env('MAIL_ADMIN_ADDRESS', 'contato@horizoncredit.com'),
 
 ];
