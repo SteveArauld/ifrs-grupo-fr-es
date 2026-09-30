@@ -3,6 +3,36 @@
 @section('title', __('pages.apply.meta_title'))
 @section('description', __('pages.apply.meta_title'))
 
+@push('styles')
+    <style>
+        #applyNowForm .form-group {
+            margin-bottom: 20px;
+        }
+
+        #applyNowForm label {
+            display: block;
+            margin-bottom: 8px;
+        }
+
+        #applyNowForm .text-input,
+        #applyNowForm .text-select {
+            display: block;
+            width: 100%;
+            height: 45px;
+            padding: 8px 15px;
+            border: 1px solid #e1e1e1;
+            border-radius: 4px;
+            box-sizing: border-box;
+        }
+
+        @media (max-width: 767px) {
+            #applyNowForm .col-md-6 {
+                margin-bottom: 10px;
+            }
+        }
+    </style>
+@endpush
+
 @section('content')
 
     <!-- page-title -->
@@ -43,7 +73,7 @@
                             <div class="alert alert-success">{{ session('success') }}</div>
                         @endif
 
-                        <form id="contactForm" method="POST" action="{{ route('apply-now.store', ['locale' => app()->getLocale()]) }}">
+                        <form id="applyNowForm" method="POST" action="{{ route('apply-now.store', ['locale' => app()->getLocale()]) }}">
                             @csrf
                             <div class="row">
                                 <div class="col-md-6">
